@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 header, footer {
@@ -171,3 +172,4 @@ footer {
     background-color: #f0eada;
     color: #130361;
 }
+
