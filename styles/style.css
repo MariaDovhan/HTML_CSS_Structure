@@ -152,7 +152,6 @@ section, aside {
     font-size: 16px;
     margin: 15px;
     text-align: left;
-    font-weight: 100;
 }
 
 .aside-header {
@@ -167,7 +166,6 @@ section, aside {
     font-size: 16px;
     margin: 15px;
     text-align: center;
-    font-weight: 100;
     font-style: italic;
 }
 
@@ -230,6 +228,7 @@ footer {
     #grid-section-1, #grid-section-2, #grid-aside-3, 
     #grid-section-4, #grid-section-5 {
         margin-bottom: 3px;
+        padding: 25px;
     }
 
     .section-header, .aside-header {
@@ -240,12 +239,5 @@ footer {
     .section-paragraph, .aside-paragraph {
         font-size: 14px;
         margin: 10px;
-        font-weight: 100;
     }
-
-    #grid-section-1, #grid-section-2, #grid-aside-3,
-    #grid-section-4, #grid-section-5 {
-        padding: 25px;
-    }
-
 }
