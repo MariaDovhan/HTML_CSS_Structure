@@ -196,9 +196,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .grid-layout {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: none;
+        grid-template-columns: 1fr;
         grid-template-rows: none;
         column-gap: 0;
     }
@@ -227,6 +225,8 @@ footer {
 
     #grid-section-1, #grid-section-2, #grid-aside-3, 
     #grid-section-4, #grid-section-5 {
+        grid-column: auto;
+        grid-row: auto;
         margin-bottom: 3px;
         padding: 25px;
     }
@@ -241,3 +241,4 @@ footer {
         margin: 10px;
     }
 }
+
